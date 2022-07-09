@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>株式会社TECH</title>
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/blog.css" />
+
+</head>
+<body>
+
+  <header class="header">
+    <div class="header_ttl" id="header_ttl">
+      <a href="index.html" class="heder_ttl-rogo"><img class="header_ttl-img" src="img/img/logo.png" alt=""></a>
+      <nav class="header_nav">
+        <ul class="header_nav-list">
+          <li class="header_nav-item"><a href="index.html">ホーム</a></li>
+          <li class="header_nav-item"><a href="service.html">事業内容</a></li>
+          <li class="header_nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="header_nav-item"><a href="company.html">会社概要</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-area">
+        <nav class="nav" id="nav">
+          <ul class="nav_content">
+            <li class="nav_content-item">
+              <a class="nav_content-link" href="index.html">ホーム</a>
+            </li>
+            <li class="nav_content-item">
+              <a class="nav_content-link" href="service.html">事業内容</a>
+            </li>
+            <li class="nav_content-item">
+              <a class="nav_content-link" href="blog.html">社員ブログ</a>
+            </li>
+            <li class="nav_content-item">
+              <a class="nav_content-link" href="company.html">会社概要</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="menu" id="menu">
+          <span class="menu_line-top"></span>
+          <span class="menu_line-middle"></span>
+          <span class="menu_line-bottom"></span>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main class="main">
+    <div class="top_ttl">
+      <img class="top_ttl-img" src="img/img/mv.png" alt="">
+      <div class="top_ttl-text">
+        <p class="top_ttl-text-item">
+          社員ブログ
+        </p>
+      </div>
+    </div>
+
+    <div class="middle_area">
+      <div class="middle_area-card">
+        <div class="middle_area-content">
+          <a href="#">
+          <img class="middle_area-card-img"
+          src="img/img/blog.png" alt=""></a>
+          <p class="middle_area-card-date">2019/07/17</p>
+          <p class="middle_area-card-ttl"><a href="#">会社を創業した理由</a></p>
+        </div>
+        <div class="middle_area-content">
+          <a href="#">
+            <img class="middle_area-card-img" src="img/img/blog.png" alt=""></a>
+          <p class="middle_area-card-date">2019/11/11</p>
+          <p class="middle_area-card-ttl"><a href="#">ＩＴエンジニアを育成する最強メソッド</a></p>
+        </div>
+        <div class="middle_area-content">
+          <a href="#">
+            <img class="middle_area-card-img" src="img/img/blog.png" alt=""></a>
+          <p class="middle_area-card-date">2020/08/01</p>
+          <p class="middle_area-card-ttl"><a href="#">コーチングによるモチベーション向上理論</a></p>
+        </div>
+        <div class="middle_area-content">
+          <a href="#">
+            <img class="middle_area-card-img" src="img/img/blog.png" alt=""></a>
+          <p class="middle_area-card-date">2020/09/10</p>
+          <p class="middle_area-card-ttl"><a href="#">プログラミング言語習得論</a></p>
+        </div>
+        <div class="middle_area-content">
+          <a href="#">
+            <img class="middle_area-card-img" src="img/img/blog.png" alt=""></a>
+          <p class="middle_area-card-date">2020/12/01</p>
+          <p class="middle_area-card-ttl"><a href="#">エンジニア採用における注意点</a></p>
+        </div>
+        <div class="middle_area-content">
+          <a href="#">
+            <img class="middle_area-card-img" src="img/img/blog.png" alt=""></a>
+          <p class="middle_area-card-date">2021/01/01</p>
+          <p class="middle_area-card-ttl"><a href="#">今年の抱負</a></p>
+        </div>
+      </div>
+    </div>
+
+    <div class="contact">
+      <div class="contact_ttl">
+        <h2 class="contact_ttl-text">お問い合わせ</h2>
+      </div>
+      <div class="contact_text">
+        <p class="contact_text-item">お仕事のご依頼や採用に関してはお問い合わせにて承っております。</p>
+      </div>
+      <input type="button" id="openBtn" value="お問い合わせ" class="contact_btn">
+      <div id="modal" class="modal">
+        <div class="modal_content">
+          <div class="modal_content-inner">
+            <div id="closeBtn" class="closebtn">
+            </div>
+            <div class="modal_ttl">
+              <div class="modal_ttl-text">
+                <p class="modal_ttl-text-item">
+                  お問い合わせ
+                </p>
+              </div>
+            </div>
+            <form class="form_contact">
+              <label for="company">
+                <p>会社名</p>
+              </label>
+              <input type="text" name="company" class="contact_area" id="company">
+              <label for="name">
+                <p>お名前<span>*</span></p>
+              </label>
+              <input type="text" name="name" class="contact_area" id="name">
+              <label for="email">
+                <p>メールアドレス<span>*</span></p>
+              </label>
+              <input type="email" name="email" class="contact_area" id="email">
+              <p>お問い合わせ内容<span>*</span></p>
+              <textarea class="contact_area" name="textarea" cols="80" rows="8"></textarea>
+              <div class="contact_submit-content">
+                <input type="submit" name="submit" value="お申し込み" class="submit" id="submit">
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <button class="scroll-top" id="button">↑</button>
+
+  </main>
+
+  <footer class="footer">
+    <div class="footer_content">
+      <small class="copyright">&copy; 2020 TECH inc</small>
+      <nav class="footer_nav">
+        <ul class="footer_nav-list">
+          <li class="footer_nav-item"><a href="index.html">ホーム</a></li>
+          <li class="footer_nav-item"><a href="service.html">事業内容</a></li>
+          <li class="footer_nav-item"><a href="blog.html">社員ブログ</a></li>
+          <li class="footer_nav-item"><a href="company.html">会社概要</a></li>
+        </ul>
+      </nav>
+    </div>
+  </footer>
+
+  
+  <script src="js/main.js"></script>
+</body>
+</html>
