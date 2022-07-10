@@ -412,12 +412,11 @@ a {
 @media screen and (max-width: 768px) {
   .footer_nav-list {
     display: block;
-    margin-right: 120px;
   }
 
   .footer_nav-item {
     border: none;
-    margin: 10px 10px;
+    margin: 20px 10px;
   }
 
   .copyright {

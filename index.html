@@ -59,8 +59,10 @@
     </div>
 
     <div class="company_text">
-      <h2 class="company_text-ttl">株式会社ＴＥＣＨの想い</h2>
-      <p class="company_text-item">あらゆる産業において、新たなデジタル技術を使ってこれまでにないビジネスモデルを展開する新規参入者が登場し、ゲームチェンジが起ころうとしています。こうした中で、各企業は、競争力維持・強化のために、ＤＸを迅速に進めていくことが求められています。しかし、ＤＸにおいて投資コストは非常にかかります。株式会社ＴＥＣＨでは独自のオペレーションと人材教育により、他社よりも価格を抑えた開発を行います。</p>
+      <div class="company_text-content">
+        <h2 class="company_text-ttl">株式会社ＴＥＣＨの想い</h2>
+        <p class="company_text-item">あらゆる産業において、新たなデジタル技術を使ってこれまでにないビジネスモデルを展開する新規参入者が登場し、ゲームチェンジが起ころうとしています。こうした中で、各企業は、競争力維持・強化のために、ＤＸを迅速に進めていくことが求められています。しかし、ＤＸにおいて投資コストは非常にかかります。株式会社ＴＥＣＨでは独自のオペレーションと人材教育により、他社よりも価格を抑えた開発を行います。</p>
+      </div>
     </div>
 
     <div class="service">
@@ -161,20 +163,30 @@
                   </div>
                 </div>
                 <form class="form_contact">
-                  <label for="company">
-                    <p>会社名</p>
-                  </label>
-                  <input type="text" name="company" class="contact_area" id="company">
-                  <label for="name">
-                    <p>お名前<span>*</span></p>
-                  </label>
-                  <input type="text" name="name" class="contact_area" id="name">
-                  <label for="email">
-                    <p>メールアドレス<span>*</span></p>
-                  </label>
-                  <input type="email" name="email" class="contact_area" id="email">
-                  <p>お問い合わせ内容<span>*</span></p>
-                  <textarea class="contact_area" name="textarea" cols="80" rows="8"></textarea>
+                  <div>
+                    <label for="company">
+                      <p>会社名</p>
+                    </label>
+                    <input type="text" name="company" class="contact_area" id="company">
+                  </div>
+                  <div>
+                    <label for="name">
+                      <p>お名前<span>*</span></p>
+                    </label>
+                    <input type="text" name="name" class="contact_area" id="name" required>
+                  </div>
+                  <div>
+                    <label for="email">
+                      <p>メールアドレス<span>*</span></p>
+                    </label>
+                    <input type="email" name="email" class="contact_area" id="email" required>
+                  </div>
+                  <div>
+                    <label for="textarea">
+                      <p>お問い合わせ内容<span>*</span></p>
+                    </label>
+                    <textarea class="contact_area" name="textarea" cols="80" rows="8" required></textarea>
+                  </div>
                   <div class="contact_submit-content">
                     <input type="submit" name="submit" value="お申し込み" class="submit" id="submit">
                   </div>

@@ -61,32 +61,34 @@
     </div>
 
     <div class="middle_area">
-      <div class="middle_area-card">
-        <img class="middle_area-card-img" src="img/img/service1.png" alt="">
-        <div class="middle_area-card-content">
-          <p class="middle_area-card-content-ttl">ＩＴ人材育成事業</p>
-          <p class="middle_area-card-content-text">これまで培った教育手法を生かして、短期間で即戦力のＩＴ人材を育成します。</p>
+      <div class="middle_area-card-block">
+        <div class="middle_area-card">
+          <img class="middle_area-card-img" src="img/img/service1.png" alt="">
+          <div class="middle_area-card-content">
+            <p class="middle_area-card-content-ttl">ＩＴ人材育成事業</p>
+            <p class="middle_area-card-content-text">これまで培った教育手法を生かして、短期間で即戦力のＩＴ人材を育成します。</p>
+          </div>
         </div>
-      </div>
-      <div class="middle_area-card">
-        <img class="middle_area-card-img" src="img/img/service2.png" alt="">
-        <div class="middle_area-card-content">
-          <p class="middle_area-card-content-ttl">コーチング事業</p>
-          <p class="middle_area-card-content-text">目標達成を最短で実現するために、プロのコーチによるマンツーマンのサポートを実施します。</p>
+        <div class="middle_area-card">
+          <img class="middle_area-card-img" src="img/img/service2.png" alt="">
+          <div class="middle_area-card-content">
+            <p class="middle_area-card-content-ttl">コーチング事業</p>
+            <p class="middle_area-card-content-text">目標達成を最短で実現するために、プロのコーチによるマンツーマンのサポートを実施します。</p>
+          </div>
         </div>
-      </div>
-      <div class="middle_area-card">
-        <img class="middle_area-card-img" src="img/img/service3.png" alt="">
-        <div class="middle_area-card-content">
-          <p class="middle_area-card-content-ttl">ＩＴコンサル事業</p>
-          <p class="middle_area-card-content-text">経営戦略にＩＴ戦略を策定し、システム開発の提案やシステムの最適化を通じて、企業の経営をサポートします。</p>
+        <div class="middle_area-card">
+          <img class="middle_area-card-img" src="img/img/service3.png" alt="">
+          <div class="middle_area-card-content">
+            <p class="middle_area-card-content-ttl">ＩＴコンサル事業</p>
+            <p class="middle_area-card-content-text">経営戦略にＩＴ戦略を策定し、システム開発の提案やシステムの最適化を通じて、企業の経営をサポートします。</p>
+          </div>
         </div>
-      </div>
-      <div class="middle_area-card">
-        <img class="middle_area-card-img" src="img/img/service4.png" alt="">
-        <div class="middle_area-card-content">
-          <p class="middle_area-card-content-ttl">デジタルトランスフォーメーション事業</p>
-          <p class="middle_area-card-content-text">人々の生活をよりよいものに変革するために様々なデジタル技術を活用し、革新的なソリューションやサービスを生み出します。</p>
+        <div class="middle_area-card">
+          <img class="middle_area-card-img" src="img/img/service4.png" alt="">
+          <div class="middle_area-card-content">
+            <p class="middle_area-card-content-ttl">デジタルトランスフォーメーション事業</p>
+            <p class="middle_area-card-content-text">人々の生活をよりよいものに変革するために様々なデジタル技術を活用し、革新的なソリューションやサービスを生み出します。</p>
+          </div>
         </div>
       </div>
     </div>
@@ -112,20 +114,30 @@
               </div>
             </div>
             <form class="form_contact">
-              <label for="company">
-                <p>会社名</p>
-              </label>
-              <input type="text" name="company" class="contact_area" id="company">
-              <label for="name">
-                <p>お名前<span>*</span></p>
-              </label>
-              <input type="text" name="name" class="contact_area" id="name">
-              <label for="email">
-                <p>メールアドレス<span>*</span></p>
-              </label>
-              <input type="email" name="email" class="contact_area" id="email">
-              <p>お問い合わせ内容<span>*</span></p>
-              <textarea class="contact_area" name="textarea" cols="80" rows="8"></textarea>
+              <div>
+                <label for="company">
+                  <p>会社名</p>
+                </label>
+                <input type="text" name="company" class="contact_area" id="company">
+              </div>
+              <div>
+                <label for="name">
+                  <p>お名前<span>*</span></p>
+                </label>
+                <input type="text" name="name" class="contact_area" id="name" required>
+              </div>
+              <div>
+                <label for="email">
+                  <p>メールアドレス<span>*</span></p>
+                </label>
+                <input type="email" name="email" class="contact_area" id="email" required>
+              </div>
+              <div>
+                <label for="textarea">
+                  <p>お問い合わせ内容<span>*</span></p>
+                </label>
+                <textarea class="contact_area" name="textarea" cols="80" rows="8" required></textarea>
+              </div>
               <div class="contact_submit-content">
                 <input type="submit" name="submit" value="お申し込み" class="submit" id="submit">
               </div>

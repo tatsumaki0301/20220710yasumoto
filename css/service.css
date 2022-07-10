@@ -161,6 +161,12 @@ a {
   width: 100%;
   margin-bottom: 80px;
 }
+.middle_area-card-block{
+  display: flex;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 auto;
+}
 .middle_area-card{
   display: flex;
   width: 85%;
@@ -182,6 +188,15 @@ a {
 }
 .middle_area-card:nth-last-of-type(1){
   border-bottom: 1px solid #27292b;
+}
+
+@media screen and (max-width: 768px) {
+  .middle_area-card{
+    display: block;
+  }
+  .middle_area-card-img {
+    width: 100%;
+  }
 }
 
 .contact {
@@ -392,12 +407,11 @@ a {
 @media screen and (max-width: 768px) {
   .footer_nav-list {
     display: block;
-    margin-right: 120px;
   }
 
   .footer_nav-item {
     border: none;
-    margin: 10px 10px;
+    margin: 20px 10px;
   }
 
   .copyright {
